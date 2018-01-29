@@ -14,6 +14,7 @@ margin-right: 20%;
     margin-right: -15px;
     margin-left: -15px;
   }
+
 .section1 {
     background-image: url('https://i.imgur.com/hqxpmpA.jpg');
     background-size: cover;
@@ -230,3 +231,47 @@ margin-right: 20%;
     margin-left: 5%;
     padding: 0 px;
 }
+.collapseDiv {
+    color: #333;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    border: 1px solid transparent;
+    border-color: #ddd;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.collapseDiv h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    border-color: #ddd;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+.collapse_body {
+    background-color: #fff;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease;
+    -webkit-transition-duration: .35s;
+    -o-transition-duration: .35s;
+    transition-duration: .35s;
+    -webkit-transition-property: height, visibility;
+    -o-transition-property: height, visibility;
+    transition-property: height, visibility
+}
+
+.collapse_content {
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+    padding: 15px;
