@@ -1,6 +1,8 @@
+/* Vertical Accordion Style */
 .va-container{
 	position:relative;
-	margin:40px auto 120px auto;
+	width:1000px;
+	margin:40px auto 0 auto;
 }
 .va-wrapper{
 	width:100%;
@@ -11,15 +13,15 @@
 }
 .va-slice{
 	cursor:pointer;
-	position:absolute;
+	position:relative;
+	top:auto;
+	left:auto;
 	width:100%;
-	left:0px;
+	height:250px;
 	overflow:hidden;
 }
 .va-slice-1{
-	background:#000 url(../images/1.jpg);
-	background-size: cover;
-	background-position: 25% 75%;
+	background:#000 url(../images/1.jpg) no-repeat center center;
 }
 .va-slice-2{
 	background:#000 url(../images/2.jpg) no-repeat center center;
@@ -30,31 +32,26 @@
 .va-slice-4{
 	background:#000 url(../images/4.jpg) no-repeat center center;
 }
-
-.va-slice-color-1{
-	background-color:#97c5eb;
+.va-slice-5{
+	background:#000 url(../images/5.jpg) no-repeat center center;
 }
-.va-slice-color-2{
-	background-color:#68ace5;
+.va-slice-6{
+	background:#000 url(../images/6.jpg) no-repeat center center;
 }
-.va-slice-color-3{
-	background-color:#0072cf;
+.va-slice-7{
+	background:#000 url(../images/7.jpg) no-repeat center center;
 }
-.va-slice-color-4{
-	background-color:#0039a6;
-}
-
 .va-title{
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-transform:uppercase;
 	font-size:60px;
 	margin-left:20px;
-	color:#BD111A;
+	color:#fff;
 	text-shadow: 0px 0px 1px white;
 }
 .va-content{
-	display:none;
 	margin-left:25px;
+	display:block;
 }
 .va-slice p{
 	font-size: 22px;
@@ -84,25 +81,21 @@
 .va-nav span{
 	width:40px;
 	height:25px;
-	background:transparent url(../images/up.png) no-repeat center center;
+	background:transparent url(../images/prev.png) no-repeat center center;
 	position:absolute;
-	top:-35px;
+	top:-37px;
 	left:50%;
 	margin-left:-20px;
 	text-indent:-9000px;
 	opacity:0.7;
 	cursor:pointer;
 	display:none;
-	z-index:100;
 }
 .va-nav span.va-nav-next{
-	background-image:url(../images/down.png);
+	background-image:url(../images/next.png);
 	top:auto;
-	bottom:-35px;
+	bottom:-37px;
 }
 .va-nav span:hover{
 	opacity:1.0;
-}
-.va-content p{
-	color:white;
 }
