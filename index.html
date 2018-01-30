@@ -77,10 +77,15 @@
     <div class="container-fluid">
         <div class="row">
             <div class="section3">
+                <div data-aos="fade-down" data-aos-duration="7000" class="parallaxword">
+                    享受
+                </div>
+                <div data-aos="fade-up" data-aos-duration="7000" class="parallaxword1">
+                    美食
+                </div>
             </div>
         </div>
     </div>
-
     <div class="container-fluid">
         <div id="news"></div>
         <div class="section4">
@@ -169,8 +174,6 @@
             </div>
         </div>
     </div>
-   
-
     <div class="section6">
         <div class="headline4">
         </div>
@@ -226,7 +229,6 @@
             </div>
         </div>
     </div>
-
     <div class="container-fluid">
         <div class="row">
             <div class="footer">
@@ -234,8 +236,6 @@
             </div>
         </div>
     </div>
-
-
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
@@ -251,7 +251,6 @@
     <script src="js/smooth scrolling.js"></script>
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
-
     <script>
         lightbox.option({
             'resizeDuration': 200,
@@ -266,7 +265,8 @@
             expandedHeight: 350,
             animSpeed: 400,
             animOpacity: 0.7,
-            visibleSlices: 4
+            visibleSlices: 4,
+            animEasing: 'jswing',
         });
         function initMap() {
             var uluru = { lat: 23.7043602, lng: 120.4357966 };
