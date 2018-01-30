@@ -69,7 +69,7 @@
 	margin:0px 2px;
 }
 .va-slice ul li a{
-	color:#000;
+	color:gray;
 	background:#eede2f;
 	padding:3px 6px;
 	font-size:14px;
@@ -104,5 +104,5 @@
 	opacity:1.0;
 }
 .va-content p{
-	color:white;
+	color:black;
 }
