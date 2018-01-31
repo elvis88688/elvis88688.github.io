@@ -194,8 +194,7 @@ padding: 80px 130px 0 130px;
     margin-left: 5%;
     padding: 0 px;
 }
-.parallaxword{
-    color: white;
+.parallaxword{  
     font-size: 100px;
     display: inline-block;
     margin-top: 235px;
@@ -203,7 +202,6 @@ padding: 80px 130px 0 130px;
     color: #BD111A;
 }
 .parallaxword1{
-    color: white;
     font-size: 100px;
     display: inline-block;
     margin-top: 235px;
@@ -318,6 +316,9 @@ padding: 80px 130px 0 130px;
     top:0;
     z-index: 9999;
     background-color: #BD111A;
+}
+.navbar{
+    background-color:#BD111A;
 }
 
 
