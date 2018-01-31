@@ -264,6 +264,10 @@ padding: 80px 130px 0 130px;
         margin-top: 65px;
         margin-bottom: 70px;
     }
+    .contactleft{
+      width: 90%;
+      margin-left: 2%;
+    }
 }
 
 
