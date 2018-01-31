@@ -167,6 +167,7 @@ padding: 80px 130px 0 130px;
 }
 .contactmid{
     font-size:24px;
+    margin-left:5%;
 }
 .contactright{
    
@@ -227,6 +228,7 @@ padding: 80px 130px 0 130px;
 }
 .va-container{
     max-width: 100%;
+    margin-bottom: 120px;
 }
 @media screen and (max-width: 767px){
     .sec1desktop, .sec3desktop{
@@ -234,18 +236,37 @@ padding: 80px 130px 0 130px;
     }
     .sec1mobile, .sec3mobile{
         display:block;
+        position: relative;
     }
 }
 @media screen and (max-width: 767px){
     .mobileparallaxword{
     position: absolute;
-    top:50px;
+    top:45%;
+    left:35%;
+    font-size:33px;
+    color:#BD111A;
     }
     .mobileparallaxword1{
     position: absolute;
-    top:50px;
+    top:45%;
+    left:53%;
+    font-size:33px;
+    color:#F7F2CA;
+    }
+    .aboutleftcol{
+        margin-bottom: 0;
+    }
+    .aboutrightcol{
+        margin-top: 0;
+    }
+    .contactmid{
+        margin-top: 65px;
+        margin-bottom: 70px;
     }
 }
+
+
 
 
 
