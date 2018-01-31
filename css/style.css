@@ -247,3 +247,9 @@ margin-right: 20%;
     margin-left: 5%;
     color:#F7F2CA;
 }
+@media screen and (max-width: 767px){
+    .section1{
+        width: 50%;
+        height: auto;
+    }
+  }
