@@ -263,21 +263,59 @@ padding: 80px 130px 0 130px;
     .contactmid{
         margin-top: 65px;
         margin-bottom: 70px;
-        margin-left: 13%;
+        margin-left: 35px;
     }
     .contactleft{
       width: 90%;
-      margin-left: 2%;
+      margin-left: 5px;
     }
     .contactright{
-        margin-left: 7%;
+        margin-left: 15px;
     }
     .section4{
         margin-top: 50px;
     }
+    .aboutrightcol{
+        font-size: 24px;
+    }
+    .newsleftword {
+        font-size: 20px;
+    }
+    
+    .newsmidword {
+        font-size: 20px;
+    }
+    
+    .newsrightword {
+        font-size: 20px;
+    }
+    .news{
+        width: 100%;
+        padding:0;
+        margin-right:15px;
+        margin-left: 3px;
+    }
 }
-
-
+@media screen and (max-width: 1060px){
+    .navbar-brand{
+        margin-right: 10%;
+        }
+}
+#about_anchor{
+    transform: translateY(-40px);
+}
+#news_anchor{
+    transform: translateY(-95px);
+}
+#menu_anchor{
+    transform: translateY(55px);
+}
+#map_anchor{
+    transform: translateY(105px);
+}
+#contact_anchor{
+    transform: translateY(-25px);
+}
 
 
 
