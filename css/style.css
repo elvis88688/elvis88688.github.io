@@ -198,8 +198,9 @@ margin-top: 35px;
     font-size: 100px;
     display: inline-block;
     margin-top: 235px;
-    margin-left: 35%;
+    text-align: center;
     color: #BD111A;
+    margin-left: 35%;
 }
 .parallaxword1{
     font-size: 100px;
@@ -207,6 +208,7 @@ margin-top: 35px;
     margin-top: 235px;
     margin-left: 5%;
     color:#F7F2CA;
+    text-align: center;
 }
 .sec1desktop, .sec3desktop{
     display:block;
