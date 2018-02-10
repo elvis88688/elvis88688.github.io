@@ -1,11 +1,10 @@
 .container {
     max-width: 1140px;
 }
-.navbar-brand{
-margin-right: 20%;
-}
 .navbar-nav{
     font-size: 21px; 
+    position: absolute;
+    right: 20%;
 }
 .row {
     margin-right: -15px;
@@ -77,6 +76,7 @@ margin-right: 20%;
     height: 80vh;
     background-position: 0 85%;
     margin-bottom: 70px;
+    position: relative;
 }
 
 .section4 {
@@ -197,18 +197,22 @@ margin-top: 35px;
 .parallaxword{  
     font-size: 100px;
     display: inline-block;
-    margin-top: 235px;
+    position: absolute;
     text-align: center;
     color: #BD111A;
-    margin-left: 35%;
+    top:40%;
+    left:35%;
+    transform: translateY(40%);
 }
 .parallaxword1{
     font-size: 100px;
     display: inline-block;
-    margin-top: 235px;
-    margin-left: 5%;
+    position: absolute;
     color:#F7F2CA;
     text-align: center;
+    top:40%;
+    right:35%;
+    transform: translateY(40%);
 }
 .sec1desktop, .sec3desktop{
     display:block;
