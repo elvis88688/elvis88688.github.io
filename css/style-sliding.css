@@ -3,7 +3,7 @@
 	margin:40px auto 120px auto;
 }
 #va-accordion{
-	width:100%;
+	width:100%!important;
 }
 .va-wrapper{
 	width:100%;	
