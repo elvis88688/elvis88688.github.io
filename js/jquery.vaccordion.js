@@ -295,7 +295,7 @@
 					
 					var settings = {
 						// the accordion's width
-						accordionW		: 1000,
+						accordionW		: 1920,
 						// the accordion's height
 						accordionH		: 450,
 						// number of visible slices

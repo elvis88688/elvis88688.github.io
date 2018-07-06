@@ -50,7 +50,7 @@
     background-size: cover;
     width: 100%;
     height: 455px;
-    border-radius: 10px;
+    box-shadow:6px 6px 6px rgba(20%,20%,40%,0.5),inset 1px 1px 4px 2px rgba(20%,20%,40%,0.5);
     margin-bottom: 120px;
 }
 
@@ -77,7 +77,6 @@
     height: 80vh;
     background-position: 0 85%;
     margin-bottom: 70px;
-    position: relative;
 }
 
 .section4 {
@@ -195,35 +194,25 @@ margin-top: 35px;
     margin-left: 5%;
     padding: 0 px;
 }
-.parallaxword{  
+.parallaxword{
     font-size: 100px;
-    display: inline-block;
-    position: absolute;
-    text-align: center;
     color: #BD111A;
-    top:40%;
-    left:35%;
-    transform: translateY(40%);
+    text-align: center;
+    line-height: 750px;
+    padding-left: 20%;
 }
 .parallaxword1{
-    font-size: 100px;
-    display: inline-block;
-    position: absolute;
+    font-size: 100px;  
     color:#F7F2CA;
     text-align: center;
-    top:40%;
-    right:35%;
-    transform: translateY(40%);
+    line-height: 750px;
+    padding-right: 20%;
 }
 .sec1desktop, .sec3desktop{
     display:block;
 }
 .sec1mobile, .sec3mobile{
     display:none;
-}
-.va-container{
-    max-width: 100%;
-    margin-bottom: 120px;
 }
 @media screen and (max-width: 768px){
     .sec1desktop, .sec3desktop{
