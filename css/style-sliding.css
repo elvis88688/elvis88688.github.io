@@ -3,11 +3,7 @@
 	margin:40px auto 120px auto;
 }
 #va-accordion{
-
-}
-.va-container{
-	margin-bottom: 120px;
-
+	width:100%!important;
 }
 .va-wrapper{
 	position:relative;
